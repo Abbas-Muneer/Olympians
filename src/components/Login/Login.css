@@ -1,0 +1,140 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./components/Image5.png");
+    background-size: cover;
+  }
+  
+  .login-box {
+    background-image: rgba(255, 225, 151, 0.8);
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    color: #333;
+    display: flex;
+    height: 60%;
+    margin: 50px auto 0;
+    padding: 20px;
+    width: 50%;
+  }
+  
+  
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .right-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .login-box img {
+    width: 100%;
+    max-width: 350px;
+    margin-left: 20px;
+  }
+  
+  .login-box h2 {
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: 500;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  .login-box label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    letter-spacing: 1px;
+  }
+  
+  .login-box input[type="email"],
+  .login-box input[type="password"], .login-box input[type="text"] {
+    width: 100%;
+    border: none;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    letter-spacing: 1px;
+  }
+  
+  .login-box button[type="submit"] {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-box button[type="submit"]:hover {
+    background-color: #3c77d8;
+    /* margin-bottom: 30px; */
+  }
+
+  .left-column p{
+    color: blue;
+    display: inline-block;
+    width: auto;
+    margin-bottom: 30px;
+  }
+  
+  .switches {
+    display: flex;
+    justify-content: center; /* center switches */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    position: absolute; /* add absolute position */
+    top: 100px; /* move switches to the bottom */
+    left: 0;
+    right: 0;
+  }
+  
+  .switches .switch {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .switches .switch.active {
+    background-color: #4285f4;
+  }
+  
+  
